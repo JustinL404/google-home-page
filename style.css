@@ -1,0 +1,54 @@
+body {
+    background-color: #fff;
+    font-family: roboto, montserrat;
+    font-size: 13px;
+}
+
+header {
+    margin: 12px;
+}
+
+.right-top-nav {
+    position: relative;
+    left: -3px;
+    }
+
+.left-top-nav {
+    position: relative;
+    right: -78%;
+}
+
+a {
+    padding: 6px;
+    font-weight: lighter;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.apps-logo {
+    position: relative;
+    top: 5px;
+    width: 23px;
+    height: 23px;
+}
+
+.blue-link {
+    background-color: hsl(236, 85%, 68%);
+    color: #fff;
+    margin: 10px;
+}
