@@ -51,4 +51,5 @@ a:active {
     background-color: hsl(236, 85%, 68%);
     color: #fff;
     margin: 10px;
+    border-radius: 5%;
 }
