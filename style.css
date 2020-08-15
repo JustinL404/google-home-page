@@ -39,7 +39,9 @@ a.nml-link:hover {
 a.nml-link:active {
     text-decoration: underline;
 }
-
+a.under-text:hover {
+    text-decoration: none;
+}
 a:hover {
     text-decoration: none;
 }
@@ -53,11 +55,28 @@ a:active {
     width: 23px;
     height: 23px;
 }
-
-
 .blue-link {
     background-color: hsl(236, 85%, 68%);
     color: #fff;
     margin: 10px;
     border-radius: 5%;
+}
+.google-logo {
+    position: relative;
+    top: 106px;
+    left: 624px;
+}
+.search-container {
+    position: relative;
+    top: 120px;
+    left: 645px;
+}
+.search-bar {
+    position: absolute;
+    top: 10px;
+    left: -177px;
+    height: 42px;
+    width: 578px;
+    border: 0.5px solid rgba(192, 192, 192, 0.7);
+    border-radius: 30px
 }
