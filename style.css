@@ -2,6 +2,7 @@ body {
     background-color: #fff;
     font-family: roboto, montserrat;
     font-size: 13px;
+    text-align: center;
 }
 
 header {
@@ -79,4 +80,8 @@ a:active {
     width: 578px;
     border: 0.1px solid rgba(192, 192, 192, 0.7);
     border-radius: 30px
+}
+.under-text {
+    position: relative;
+    top
 }
