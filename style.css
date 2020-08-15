@@ -17,7 +17,7 @@ header {
     position: relative;
     right: -78%;
 }
-
+/*begin links section*/
 a {
     padding: 6px;
     font-weight: lighter;
@@ -40,12 +40,20 @@ a.nml-link:active {
     text-decoration: underline;
 }
 
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+/*end links section*/
 .apps-logo {
     position: relative;
     top: 5px;
     width: 23px;
     height: 23px;
 }
+
 
 .blue-link {
     background-color: hsl(236, 85%, 68%);
