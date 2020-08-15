@@ -6,18 +6,16 @@ body {
 }
 
 header {
-    margin: 12px;
+    font-weight: lighter;
+}
+
+.left-top-nav {
+    text-align: left;
 }
 
 .right-top-nav {
-    position: relative;
-    left: -3px;
+    text-align: right;
     }
-
-.left-top-nav {
-    position: relative;
-    right: -78%;
-}
 /*begin links section*/
 a {
     padding: 6px;
@@ -51,7 +49,7 @@ a:active {
 }
 /*end links section*/
 .apps-logo {
-    position: relative;
+    position: absolute;
     top: 5px;
     width: 23px;
     height: 23px;
@@ -64,16 +62,16 @@ a:active {
 }
 .google-logo {
     position: relative;
-    top: 106px;
-    left: 624px;
+    top: 117px;
+    left: 0px;
 }
 .search-container {
     position: relative;
     top: 120px;
-    left: 645px;
+    left: 0px;
 }
 .search-bar {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: -177px;
     height: 42px;
@@ -82,6 +80,6 @@ a:active {
     border-radius: 30px
 }
 .under-text {
-    position: relative;
+    position: absolute;
     top
 }
