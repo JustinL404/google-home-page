@@ -32,11 +32,11 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a.nml-link:hover {
     text-decoration: underline;
 }
 
-a:active {
+a.nml-link:active {
     text-decoration: underline;
 }
 
