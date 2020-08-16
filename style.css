@@ -4,17 +4,14 @@ body {
     font-size: 13px;
     text-align: center;
 }
-
 header {
     font-weight: light;
     width: 100%;
 }
-
 .left-top-nav {
     position: relative;
     left: -39%;
 }
-
 .right-top-nav {
     position: relative;
     right: -39%;
