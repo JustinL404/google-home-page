@@ -1,45 +1,44 @@
 body {
     background-color: #fff;
-    font-family: roboto, montserrat;
+    font-family: sans-serif;
     font-size: 13px;
     text-align: center;
 }
 
 header {
-    font-weight: lighter;
+    font-weight: light;
+    width: 100%;
 }
 
 .left-top-nav {
-    text-align: left;
+    position: relative;
+    left: -39%;
 }
 
 .right-top-nav {
-    text-align: right;
+    position: relative;
+    right: -39%;
     }
 /*begin links section*/
 a {
     padding: 6px;
     font-weight: lighter;
+    color: gray;
+}
+a.black-text {
     color: black;
 }
-
 a:link {
     text-decoration: none;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 a.nml-link:hover {
     text-decoration: underline;
 }
-
 a.nml-link:active {
     text-decoration: underline;
-}
-a.under-text:hover {
-    text-decoration: none;
 }
 a:hover {
     text-decoration: none;
@@ -47,6 +46,32 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+/*begin under-text links*/
+a.under-text-a:link {
+    text-decoration: none;
+}
+a.under-text-a:visited {
+    text-decoration: none;
+}
+a.under-text-a:hover {
+    text-decoration: none;
+}
+a.under-text-a:active {
+    text-decoration: none;
+}
+a.under-text-b:link {
+    text-decoration: none;
+}
+a.under-text-b:visited {
+    text-decoration: none;
+}
+a.under-text-b:hover {
+    text-decoration: none;
+}
+a.under-text-b:active {
+    text-decoration: none;
+}
+/*end under-text links*/
 /*end links section*/
 .apps-logo {
     position: relative;
@@ -57,39 +82,59 @@ a:active {
 .blue-link {
     background-color: hsl(236, 85%, 68%);
     color: #fff;
+    font-weight: bold;
     margin: 10px;
     border-radius: 5%;
 }
 .google-logo {
     position: relative;
-    top: 117px;
+    top: 122px;
     left: 0px;
 }
 .search-container {
     position: relative;
-    top: 120px;
+    top: 150px;
     left: 0px;
 }
 .search-bar {
     position: relative;
-    top: 10px;
-    left: -177px;
+    top: -4px;
+    left: 0px;
     height: 42px;
     width: 578px;
     border: 0.1px solid rgba(192, 192, 192, 0.7);
     border-radius: 30px
 }
 .under-text {
-    position: absolute;
+    position: relative;
+    font-size: 14px;
+}
+.under-text-a {
+    position: relative;
+    top: 185px;
+    left: -25px;
+    background-color: rgb(243, 243, 243);
+    width: 20px;
+}
+.under-text-b {
+    position: relative;
+    top: 185px;
+    right: -10px;
 }
 footer {
+    background-color: rgb(240, 240, 240);
     position: relative;
-    top: 530px;
-    background-color: gray;
+    top: 524px;
+    width: 1505px;
+    padding: 10px;
+    border-top: 0.1px solid lightgray;
+    font-size: 14px;
 }
 .bot-nav-left {
-    text-align: left;
+    position: relative;
+    left: -34%;
 }
 .bot-nav-right {
-    text-align: right;
+    position: relative;
+    right: -33%;
 }
