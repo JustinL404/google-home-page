@@ -77,7 +77,7 @@ a.under-text-b:active {
     height: 23px;
 }
 .blue-link {
-    background-color: hsl(236, 85%, 68%);
+    background-color: #4285f4;
     color: #fff;
     font-weight: bold;
     margin: 10px;
@@ -90,15 +90,17 @@ a.under-text-b:active {
 }
 .search-container {
     position: relative;
-    top: 150px;
-    left: 0px;
+    top: 158px;
+    left: 400px;
+    width: 578px;
+    border: 1px solid silver;
 }
 .search-bar {
     position: relative;
     top: -4px;
     left: 0px;
     height: 42px;
-    width: 578px;
+    width: 500px;
     border: 0.1px solid rgba(192, 192, 192, 0.7);
     border-radius: 30px
 }
