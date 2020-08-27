@@ -51,7 +51,8 @@ a.under-text-a:visited {
     text-decoration: none;
 }
 a.under-text-a:hover {
-    text-decoration: none;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
 }
 a.under-text-a:active {
     text-decoration: none;
@@ -63,7 +64,8 @@ a.under-text-b:visited {
     text-decoration: none;
 }
 a.under-text-b:hover {
-    text-decoration: none;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
 }
 a.under-text-b:active {
     text-decoration: none;
@@ -90,22 +92,22 @@ a.under-text-b:active {
 }
 .search-container {
     position: relative;
-    top: 140px;
-    left: 450px;
+    top: 146px;
+    left: 467px;
     width: 578px;
-    height: 40px;
-    width: 550px;
-    border: 1px solid silver;
+    height: 43px;
+    width: 582px;
+    border: 1px solid rgb(228, 226, 226);
     border-radius: 30px;
 }
 .search-bar {
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 8px;
+    left: -5px;
     height: 5px;
-    width: 450px;
+    width: 480px;
     padding: 10px;
-    border: 1px solid silver;
+    border: 1px solid white;
 }
 .under-text {
     position: relative;
@@ -113,17 +115,23 @@ a.under-text-b:active {
 }
 .under-text-a {
     position: relative;
+    margin: 0 auto;
     top: 185px;
     left: -25px;
     background-color: rgb(243, 243, 243);
     width: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
 }
 .under-text-b {
     position: relative;
+    margin: 5px;
     top: 185px;
     right: -10px;
     background-color: rgb(243, 243, 243);
     width: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
 }
 footer {
     background-color: rgb(240, 240, 240);
