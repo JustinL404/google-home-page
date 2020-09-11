@@ -139,10 +139,11 @@ footer {
     background-color: rgb(240, 240, 240);
     position: relative;
     top: 524px;
-    width: 1505px;
+    width: 100%;
     padding: 10px;
     border-top: 0.1px solid lightgray;
     font-size: 14px;
+    justify-content: flex-start;
 }
 .bot-nav-left {
     position: relative;
